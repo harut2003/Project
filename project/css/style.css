@@ -1,5 +1,5 @@
 body{
-    font-family: 'Roboto Mono', monospace;
+     font-family: 'Geometria';
     font-size: 15px;
     font-weight: 400;
 }
@@ -58,7 +58,7 @@ body{
 }
 
 .header-menu{
-    font-family: 'Roboto Mono', monospace;;
+    font-family: 'Geometria';
     font-size: 16px;
     line-height: 26px;
 }
@@ -75,14 +75,14 @@ body{
     
 .header-logo-slogan{
     width: 195px;
-    font-family: 'Roboto Mono', monospace;;
+    font-family: 'Geometria';
     font-size: 16px;
     line-height: 26px;
 }
 
 .phone-number{
     padding-left: 10px;
-    font-family: 'Roboto Mono', monospace;;
+    font-family: 'Geometria';
     font-size: 30px;
     line-height: 49px;
 }
@@ -107,9 +107,10 @@ body{
     animation: 1s linear;
 }
 
+
 .header_title{
-    width: 586px;
-    font-family: 'Roboto Mono', monospace;;
+    width: 596px;
+    font-family: 'Geometria';
     font-size: 50px;
     line-height: 75px;
     text-transform: uppercase;
@@ -118,14 +119,14 @@ body{
 
 .subtitle{
     width: 540px;
-    font-family: 'Roboto Mono', monospace;;
+    font-family: 'Geometria';
     font-size: 22px;
     line-height: 36px;
     margin-bottom: 50px;
 }
 
 .info-number{
-    font-family: 'Roboto Mono', monospace;;
+    font-family: 'Geometria';
     font-size: 80px;
     line-height: 25px;
 }
@@ -145,7 +146,7 @@ body{
 .info-text{
     margin-left: 10px;
     max-width: 140px;
-    font-family: 'Roboto Mono', monospace;;
+    font-family: 'Geometria';;
     font-size: 16px;
     line-height: 26px;
 }
@@ -160,7 +161,7 @@ body{
 .wine-gift-text{
     padding-left: 10px;
     width: 376px;
-    font-family: 'Roboto Mono', monospace;;
+    font-family: 'Geometria';;
     font-size: 16px;
     line-height: 26px;
 }
@@ -183,7 +184,7 @@ body{
 .header-change a{
     text-decoration: none;
     color: #fff;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Geometria';
     font-size: 20px;
     line-height: 30px;
 }
@@ -194,7 +195,7 @@ body{
 
 
 .test-title {
- font-family: 'Roboto Mono', monospace;   
+ font-family: 'Geometria';   
 font-size: 35px;
 line-height: 35px;
 text-align: center;
@@ -202,7 +203,7 @@ margin-bottom: 10px
 }
 
 .test-subtitle{
-    font-family: 'Roboto', monospace;   
+    font-family: 'Geometria';    
 font-size: 22px;
 line-height: 48px;
 text-align: center;
@@ -234,7 +235,7 @@ text-align: center;
 }
 
 .photo-title{
-    font-family: 'Roboto', monospace;
+   font-family: 'Geometria'; 
 font-size: 16px;
 line-height: 26px;
 align-items: center;
@@ -245,7 +246,7 @@ font-weight: 700;
 }
 
 .test-borer-title{
-  font-family: 'Roboto', monospace;
+  font-family: 'Geometria'; 
 font-size: 22px;
 line-height: 33px;  
 }
@@ -266,41 +267,41 @@ border-bottom: 3px solid #F6F6F6;
 .text-statis{
     display: flex;
     position: relative;
+    align-items: center;
+    padding-top: 30px;
 }
 
 .text-statis p{
     margin-right: 300px;
 }
 
-.text-statis a{
+.continue{
+    display: flex;
 text-decoration: none;
 color: #2A94E2;
+align-items: center;
+}
 
-
+.continue svg{
+    margin-left: 15px;
 }
 
 
-.text-statis a:after{
-    margin-left: 15px; 
-    position: absolute;
-    bottom:0;
-    font-family: 'icomoon' !important;
- content: "\ea3c";
 
-}
 .test-services{
 padding-left:50px;
 padding-right: 40px;
 padding-bottom: 30px;
-
 }
 
 .service{
-    width: 219px;
-    font-family: 'Roboto', monospace;
+width: 219px;
+font-family: 'Geometria'; 
 font-size: 16px;
 line-height: 26px;
 position: relative;
+align-items: center;
+
 }
 
 .service-help{
@@ -311,13 +312,17 @@ position: relative;
     padding-bottom: 30px;
 }
 
-.service:before{
+.service svg{
     position: absolute;
-    color: #000;
-   font-family: 'icomoon' !important;
-    content: "\e900";
-    left: -50px;
-    font-size: 50px;
-    padding-right: 50px;
-    color: #2A94E2;
+   left: -40px;
+
 }
+
+.inter-title{
+font-family: Geometria;
+font-size: 35px;
+line-height: 48px;
+text-align: center;
+padding-bottom: 30px;
+}
+
