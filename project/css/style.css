@@ -21,7 +21,7 @@ body{
 .header{
     padding-top: 30px;
     padding-bottom: 40px;
-    height: 877px;
+    height: 875px;
     background: url("../img/Rectanglebg.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -111,6 +111,7 @@ body{
 .header_title{
     width: 596px;
     font-family: 'Geometria';
+    font-weight: bold;
     font-size: 50px;
     line-height: 75px;
     text-transform: uppercase;
@@ -203,9 +204,11 @@ margin-bottom: 10px
 }
 
 .test-subtitle{
-    font-family: 'Geometria';    
+    font-family: 'Geometria';
+    font-weight: 400;    
 font-size: 22px;
 line-height: 48px;
+padding-bottom: 40px;
 text-align: center;
 }
 
@@ -324,5 +327,95 @@ font-size: 35px;
 line-height: 48px;
 text-align: center;
 padding-bottom: 30px;
+}
+
+.grid-container{
+   display: grid;
+   grid-template-columns: 373px;
+   grid-template-rows: repeat(3,300px);
+   grid-row-gap: 10px;
+   column-gap: 10px;
+   grid-template-areas: "one two three"
+                        "one four four"
+                        "five five six"       
+}
+
+.img-container{
+    color: white;
+    position: relative;
+
+}
+
+#one{
+    grid-area: one;
+}
+
+#two{
+    grid-area: two;
+}
+
+#three{
+    grid-area: three;
+}
+
+#four{
+    grid-area: four;
+}
+
+#five{
+    grid-area: five;
+}
+
+.grid-text{
+       padding: 20px;
+    z-index:1;
+width:333px;
+position: absolute;
+bottom: 0px;
+font-family: 'Geometria';
+font-size: 22px;
+line-height: 33px;
+padding-bottom: 20px;
+}
+
+.grid-text-first{
+    padding: 20px;
+    z-index:1;
+width:333px;
+position: absolute;
+bottom: 0px;
+font-family: 'Geometria';
+font-size: 22px;
+line-height: 33px;
+padding-bottom: 100px;
+}
+
+.grid-text-first span{
+    line-height: 26px;
+    font-size:16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.btn-inter{
+    position: absolute;
+    bottom: 0;
+    background: #2A94E2;
+border: 2px solid #2A94E2;
+border-radius: 5px; 
+left: 50%;
+transform: translateX(-50%);
+width: 333px;
+text-align: center;
+padding: 20px 0;
+margin: 20px 0;
+}
+
+.btn-inter a{
+    font-family: Geometria;
+font-size: 16px;
+line-height: 24px;
+text-decoration: none;
+color: #fff;
 }
 
